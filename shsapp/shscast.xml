@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>SHSAppCast</title>
+        <link>https://dgleiche.github.io/shsapp/shscast.xml</link>
+        <description>Appcast for SHSApp Updates</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.1</title>
+            <pubDate>Sun, 11 Jan 2015 14:04:56 -0500</pubDate>
+            <sparkle:releaseNotesLink>https://dgleiche.github.io/shsapp/release.html</sparkle:releaseNotesLink>
+            <enclosure sparkle:version="0.1" sparkle:shortVersionString="0.1" length="" url="https://dgleiche.github.io/shsapp/SHS-App.dmg" type="application/octet-stream" sparkle:dsaSignature="MCwCFHJLSAKf5NbmL1ubM8zJH0erADD8AhRxXSuusGFCAWrHVSaLSH2jOQ7tRw=="></enclosure>
+        </item>
+    </channel>
+</rss>
