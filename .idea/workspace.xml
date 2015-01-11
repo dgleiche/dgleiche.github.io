@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7556b805-f170-4be4-8d66-469c9028dbd8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shsapp/SHS-App.dmg" afterPath="$PROJECT_DIR$/shsapp/SHS-App.dmg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shsapp/shscast.xml" afterPath="$PROJECT_DIR$/shsapp/shscast.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dgleiche.github.io.iws" />
@@ -36,20 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shscast.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shscast.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shsapp/shscast.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <caret line="11" column="138" selection-start-line="11" selection-start-column="138" selection-end-line="11" selection-end-column="138" />
+            <state vertical-scroll-proportion="0.2244898" vertical-offset="0" max-vertical-offset="735">
+              <caret line="11" column="258" selection-start-line="11" selection-start-column="258" selection-end-line="11" selection-end-column="258" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shsapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18987341" vertical-offset="0" max-vertical-offset="711">
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
               <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
@@ -77,8 +79,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/shsapp/release.html" />
         <option value="$PROJECT_DIR$/shsapp/appcasts.xml" />
-        <option value="$PROJECT_DIR$/shsapp/shscast.xml" />
         <option value="$PROJECT_DIR$/shsapp/index.html" />
+        <option value="$PROJECT_DIR$/shsapp/shscast.xml" />
       </list>
     </option>
   </component>
@@ -380,18 +382,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shsapp/shscast.xml">
+    <entry file="file://$PROJECT_DIR$/shsapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="11" column="138" selection-start-line="11" selection-start-column="138" selection-end-line="11" selection-end-column="138" />
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shsapp/index.html">
+    <entry file="file://$PROJECT_DIR$/shsapp/shscast.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18987341" vertical-offset="0" max-vertical-offset="711">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.2244898" vertical-offset="0" max-vertical-offset="735">
+          <caret line="11" column="258" selection-start-line="11" selection-start-column="258" selection-end-line="11" selection-end-column="258" />
           <folding />
         </state>
       </provider>
