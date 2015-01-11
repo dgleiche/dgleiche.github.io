@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7556b805-f170-4be4-8d66-469c9028dbd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shsapp/SHS-App.dmg" afterPath="$PROJECT_DIR$/shsapp/SHS-App.dmg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shsapp/release.html" afterPath="$PROJECT_DIR$/shsapp/release.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shsapp/shscast.xml" afterPath="$PROJECT_DIR$/shsapp/shscast.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/shsapp/shscast.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2244898" vertical-offset="0" max-vertical-offset="735">
-              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+              <caret line="11" column="165" selection-start-line="11" selection-start-column="165" selection-end-line="11" selection-end-column="165" />
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
       <file leaf-file-name="release.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shsapp/release.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -77,9 +77,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/shsapp/release.html" />
         <option value="$PROJECT_DIR$/shsapp/appcasts.xml" />
         <option value="$PROJECT_DIR$/shsapp/index.html" />
+        <option value="$PROJECT_DIR$/shsapp/release.html" />
         <option value="$PROJECT_DIR$/shsapp/shscast.xml" />
       </list>
     </option>
@@ -285,7 +285,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421010159949</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Another new DMG Test">
+      <created>1421010776959</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1421010776959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -334,7 +340,8 @@
     <MESSAGE value="Added SHSApp index&#10;" />
     <MESSAGE value="Added DMG" />
     <MESSAGE value="New DMG" />
-    <option name="LAST_COMMIT_MESSAGE" value="New DMG" />
+    <MESSAGE value="Another new DMG Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another new DMG Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -373,14 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shsapp/release.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1200">
@@ -397,10 +396,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shsapp/release.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shsapp/shscast.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2244898" vertical-offset="0" max-vertical-offset="735">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <caret line="11" column="165" selection-start-line="11" selection-start-column="165" selection-end-line="11" selection-end-column="165" />
           <folding />
         </state>
       </provider>

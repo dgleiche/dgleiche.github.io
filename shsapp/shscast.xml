@@ -9,7 +9,7 @@
             <title>Version 0.2</title>
             <pubDate>Sun, 11 Jan 2015 14:04:56 -0500</pubDate>
             <sparkle:releaseNotesLink>https://dgleiche.github.io/shsapp/release.html</sparkle:releaseNotesLink>
-            <enclosure sparkle:version="0.2" sparkle:shortVersionString="0.2" length="" url="MCwCFADLbbwidpQHhnsU03kSVOH1IV40AhRImguq/UshBMsuBIkgzcaDI4TlJg=="></enclosure>
+            <enclosure sparkle:version="0.2" sparkle:shortVersionString="0.2" sparkle:dsaSignature="MCwCFADLbbwidpQHhnsU03kSVOH1IV40AhRImguq/UshBMsuBIkgzcaDI4TlJg==" length="" url="https://dgleiche.github.io/shsapp/SHS-App.dmg"></enclosure>
         </item>
     </channel>
 </rss>
