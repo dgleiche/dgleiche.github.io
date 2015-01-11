@@ -6,10 +6,10 @@
         <description>Appcast for SHSApp Updates</description>
         <language>en</language>
         <item>
-            <title>Version 0.1</title>
+            <title>Version 0.2</title>
             <pubDate>Sun, 11 Jan 2015 14:04:56 -0500</pubDate>
             <sparkle:releaseNotesLink>https://dgleiche.github.io/shsapp/release.html</sparkle:releaseNotesLink>
-            <enclosure sparkle:version="0.1" sparkle:shortVersionString="0.1" length="" url="https://dgleiche.github.io/shsapp/SHS-App.dmg" type="application/octet-stream" sparkle:dsaSignature="MCwCFGbRmdbRPHDtzq12JpkOSNeSSjYEAhRNZsfhMmYOME6X/LGnSXWlwzb7TQ=="></enclosure>
+            <enclosure sparkle:version="0.2" sparkle:shortVersionString="0.2" length="" url="MCwCFADLbbwidpQHhnsU03kSVOH1IV40AhRImguq/UshBMsuBIkgzcaDI4TlJg=="></enclosure>
         </item>
     </channel>
 </rss>

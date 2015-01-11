@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/shsapp/shscast.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2244898" vertical-offset="0" max-vertical-offset="735">
-              <caret line="11" column="258" selection-start-line="11" selection-start-column="258" selection-end-line="11" selection-end-column="258" />
+              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -279,7 +279,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421007913751</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New DMG">
+      <created>1421010159949</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1421010159949</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -327,7 +333,8 @@
     <MESSAGE value="Added the app&#10;" />
     <MESSAGE value="Added SHSApp index&#10;" />
     <MESSAGE value="Added DMG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added DMG" />
+    <MESSAGE value="New DMG" />
+    <option name="LAST_COMMIT_MESSAGE" value="New DMG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -393,7 +400,7 @@
     <entry file="file://$PROJECT_DIR$/shsapp/shscast.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2244898" vertical-offset="0" max-vertical-offset="735">
-          <caret line="11" column="258" selection-start-line="11" selection-start-column="258" selection-end-line="11" selection-end-column="258" />
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
           <folding />
         </state>
       </provider>
