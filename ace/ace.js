@@ -17,7 +17,7 @@ function getLastLine() {
 }
 
 function setHtml(html) {
-    html.html(html);
+    $("#html").html(html);
 }
 
 $(document).keypress(function(e) {
