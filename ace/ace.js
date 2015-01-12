@@ -4,6 +4,9 @@ editor.getSession().setMode("ace/mode/javascript");
 
 /* Returns the last line of the editor */
 function getLastLine() {
+    //Store cur line to go back to in memory
+    var lineBeginning = editor.getSelectionRange().start.row;
+
     //Find the length of the editor in lines, go to the last line
     var length = editor.session.getLength();
 
@@ -12,6 +15,9 @@ function getLastLine() {
     //We are definitely now on the last line, get the contents of the line
     var curLine = editor.getSelectionRange().start.row;
     var codeOnLine = editor.session.getLine(curLine);
+
+    //Go back to line started on (plus 1 accounts for enter)
+    editor.gotoLine(lineBeginning+1);
 
     return codeOnLine;
 }
@@ -22,6 +28,8 @@ function setHtml(html) {
 
 /* Code is an array */
 function setEditor(codeArr) {
+    editor.insertLines(codeArr);
+
     for (var code in codeArr) {
         alert(code[i]);
     }
@@ -33,10 +41,7 @@ $(document).keypress(function(e) {
         var code = getLastLine();
 
         console.log(code);
-
-        //result = jorddanFuns(code)
-
-        //code, resul
+        
     }
 });
 
