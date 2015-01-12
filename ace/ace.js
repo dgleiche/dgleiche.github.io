@@ -35,6 +35,6 @@ $(document).keypress(function(e) {
 
 $(document).ready(function() {
     var html = "<h1>Test</h1> <p>html</p>";
-    
+
     setHtml(html);
 });
