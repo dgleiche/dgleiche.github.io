@@ -20,6 +20,11 @@ function setHtml(html) {
     $("#html").html(html);
 }
 
+/* Code is an array */
+function setEditor(code) {
+
+}
+
 $(document).keypress(function(e) {
     if(e.which == 13) {
         //Enter key pressed
