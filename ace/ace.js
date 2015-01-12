@@ -28,7 +28,7 @@ function setHtml(html) {
 
 /* Code is an array */
 function setEditor(codeArr) {
-    editor.insertLines(codeArr);
+    editor.session.insertLines(codeArr);
 
     for (var code in codeArr) {
         alert(code[i]);
@@ -41,7 +41,7 @@ $(document).keypress(function(e) {
         var code = getLastLine();
 
         console.log(code);
-        
+
     }
 });
 
