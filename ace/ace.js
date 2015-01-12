@@ -17,7 +17,7 @@ function getLastLine() {
     var codeOnLine = editor.session.getLine(curLine);
 
     //Go back to line started on (plus 1 accounts for enter)
-    editor.gotoLine(lineBeginning+1);
+    //editor.gotoLine(lineBeginning+1);
 
     return codeOnLine;
 }
