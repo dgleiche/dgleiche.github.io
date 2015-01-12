@@ -16,6 +16,10 @@ function getLastLine() {
     return codeOnLine;
 }
 
+function setHtml(html) {
+    html.html(html);
+}
+
 $(document).keypress(function(e) {
     if(e.which == 13) {
         //Enter key pressed
@@ -29,4 +33,8 @@ $(document).keypress(function(e) {
     }
 });
 
-//setUpScreen(html
+$(document).ready(function() {
+    var html = "<h1>Test</h1> <p>html</p>";
+    
+    setHtml(html);
+});
