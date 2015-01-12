@@ -1,3 +1,32 @@
 var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
 editor.getSession().setMode("ace/mode/javascript");
+
+/* Returns the last line of the editor */
+function getLastLine() {
+    //Find the length of the editor in lines, go to the last line
+    var length = editor.session.getLength();
+
+    editor.gotoLine(length);
+
+    //We are definitely now on the last line, get the contents of the line
+    var curLine = editor.getSelectionRange().start.row;
+    var codeOnLine = editor.session.getLine(curLine);
+
+    return codeOnLine;
+}
+
+$(document).keypress(function(e) {
+    if(e.which == 13) {
+        //Enter key pressed
+        var code = getLastLine();
+
+        alert(code);
+
+        //result = jorddanFuns(code)
+
+        //code, resul
+    }
+});
+
+//setUpScreen(html
