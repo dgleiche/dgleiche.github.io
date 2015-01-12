@@ -21,7 +21,7 @@ $(document).keypress(function(e) {
         //Enter key pressed
         var code = getLastLine();
 
-        alert(code);
+        console.log(code);
 
         //result = jorddanFuns(code)
 
