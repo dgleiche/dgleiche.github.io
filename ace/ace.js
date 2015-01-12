@@ -10,7 +10,7 @@ function getLastLine() {
     editor.gotoLine(length+1);
 
     //We are definitely now on the last line, get the contents of the line
-    //var curLine = editor.getSelectionRange().start.row;
+    var curLine = editor.getSelectionRange().start.row;
     var codeOnLine = editor.session.getLine(curLine-1);
 
     return codeOnLine;
