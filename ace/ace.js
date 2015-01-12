@@ -21,8 +21,10 @@ function setHtml(html) {
 }
 
 /* Code is an array */
-function setEditor(code) {
-
+function setEditor(codeArr) {
+    for (var code in codeArr) {
+        alert(code[i]);
+    }
 }
 
 $(document).keypress(function(e) {
@@ -38,8 +40,14 @@ $(document).keypress(function(e) {
     }
 });
 
-$(document).ready(function() {
+function init() {
     var html = "<h1>Test</h1> <p>html</p>";
 
     setHtml(html);
-});
+
+    var codeArr = ["a = 5+3", "b = 5*4", "c = a*b"];
+
+    setEditor(codeArr);
+}
+
+$(document).ready(init());
