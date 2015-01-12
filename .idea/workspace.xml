@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7556b805-f170-4be4-8d66-469c9028dbd8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace/index.html" afterPath="$PROJECT_DIR$/ace/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dgleiche.github.io.iws" />
@@ -66,21 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ace/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.56962025" vertical-offset="0" max-vertical-offset="711">
+              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ace.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ace.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ace/ace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="735">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -99,8 +100,8 @@
         <option value="$PROJECT_DIR$/shsapp/index.html" />
         <option value="$PROJECT_DIR$/shsapp/shscast.xml" />
         <option value="$PROJECT_DIR$/shsapp/release.html" />
-        <option value="$PROJECT_DIR$/ace/index.html" />
         <option value="$PROJECT_DIR$/ace/ace.js" />
+        <option value="$PROJECT_DIR$/ace/index.html" />
       </list>
     </option>
   </component>
@@ -335,7 +336,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421079505377</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added enter key to ace">
+      <created>1421079520622</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1421079520622</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -388,7 +395,8 @@
     <MESSAGE value="Now DSA Signing fixed&#10;" />
     <MESSAGE value="V 0.3 Add support for 10.9" />
     <MESSAGE value="Added ace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ace" />
+    <MESSAGE value="Added enter key to ace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added enter key to ace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -491,18 +499,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace/index.html">
+    <entry file="file://$PROJECT_DIR$/ace/ace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace/ace.js">
+    <entry file="file://$PROJECT_DIR$/ace/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="735">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.56962025" vertical-offset="0" max-vertical-offset="711">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
           <folding />
         </state>
       </provider>
