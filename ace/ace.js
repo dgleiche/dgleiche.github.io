@@ -28,7 +28,7 @@ function setHtml(html) {
 
 /* Code is an array */
 function setEditor(codeArr) {
-    editor.session.insertLines(codeArr);
+    //editor.session.insertLines(codeArr);
 
     for (var code in codeArr) {
         alert(code[i]);
