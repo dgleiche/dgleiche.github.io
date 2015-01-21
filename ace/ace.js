@@ -1,6 +1,7 @@
 var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
 editor.getSession().setMode("ace/mode/ruby");
+editor.readOnly = true;
 
 var input = ace.edit("input");
 input.setTheme("ace/theme/chrome");
@@ -13,20 +14,14 @@ input.setOptions({
 
 /* Returns the last line of the editor */
 function getLastLine() {
-    //Store cur line to go back to in memory
-    var lineBeginning = editor.getSelectionRange().start.row;
-
-    //Find the length of the editor in lines, go to the last line
-    //var length = editor.session.getLength();
-
-    //editor.gotoLine(length+1);
 
     //We are definitely now on the last line, get the contents of the line
-    var curLine = editor.getSelectionRange().start.row;
-    var codeOnLine = editor.session.getLine(curLine);
+    var curLine = input.getSelectionRange().start.row;
+    var codeOnLine = input.session.getLine(curLine);
 
     //Go back to line started on (plus 1 accounts for enter)
-    editor.gotoLine(lineBeginning+2);
+    input.selectAll();
+    input.removeLines();
 
     return codeOnLine;
 }
@@ -44,6 +39,7 @@ function setEditor(codeArr) {
     }
 }
 
+//TODO:: Change this to an event only for input
 $(document).keypress(function(e) {
     if(e.which == 13) {
         //Enter key pressed
