@@ -47,7 +47,7 @@ $(document).keypress(function(e) {
 
 editor.getSession().on('change', function(e) {
     // e.type, etc
-    alert(e.type());
+    alert(e.type);
 });
 
 function init() {
