@@ -45,11 +45,6 @@ $(document).keypress(function(e) {
     }
 });
 
-editor.getSession().on('change', function(e) {
-    // e.type, etc
-    alert(e.type);
-});
-
 function init() {
     var html = "<h1>Test</h1> <p>html</p>";
 
