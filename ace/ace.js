@@ -31,7 +31,7 @@ function setHtml(html) {
 }
 
 /* Code is an array */
-function setEditor(codeArr) {
+function setEditorArr(codeArr) {
     //editor.session.insertLines(codeArr);
 
     for (var code in codeArr) {
@@ -39,12 +39,18 @@ function setEditor(codeArr) {
     }
 }
 
+function setEditor(code) {
+    editor.insert(code + "\n");
+}
+
 $(document).keypress(function(e) {
     if(e.which == 13) {
         //Enter key pressed
         var code = getLastLine();
 
-        console.log(code);
+        //Here we send the code to whatever parser jordan made
+        //For this example ill just diplay it in the editor
+        setEditor(code);
 
     }
 });
@@ -64,7 +70,7 @@ function init() {
 
     var codeArr = ["a = 5+3", "b = 5*4", "c = a*b"];
 
-    setEditor(codeArr);
+    setEditorArr(codeArr);
 }
 
 $(document).ready(init());
