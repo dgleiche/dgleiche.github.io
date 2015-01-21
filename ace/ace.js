@@ -1,7 +1,7 @@
 var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
 editor.getSession().setMode("ace/mode/ruby");
-editor.readOnly = true;
+editor.setReadOnly(true);
 
 var input = ace.edit("input");
 input.setTheme("ace/theme/chrome");
@@ -39,7 +39,6 @@ function setEditor(codeArr) {
     }
 }
 
-//TODO:: Change this to an event only for input
 $(document).keypress(function(e) {
     if(e.which == 13) {
         //Enter key pressed
