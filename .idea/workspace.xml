@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7556b805-f170-4be4-8d66-469c9028dbd8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace/ace.js" afterPath="$PROJECT_DIR$/ace/ace.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dgleiche.github.io.iws" />
@@ -79,8 +80,8 @@
       <file leaf-file-name="ace.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ace/ace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30612245" vertical-offset="285" max-vertical-offset="1020">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.2857143" vertical-offset="285" max-vertical-offset="1035">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -500,7 +501,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421810470188</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Editor can press enter stuff">
+      <created>1421810509072</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1421810509072</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -767,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace/ace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30612245" vertical-offset="285" max-vertical-offset="1020">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.2857143" vertical-offset="285" max-vertical-offset="1035">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
         </state>
       </provider>
