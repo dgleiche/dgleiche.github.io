@@ -6,6 +6,11 @@ var input = ace.edit("input");
 input.setTheme("ace/theme/chrome");
 input.getSession().setMode("ace/mode/ruby");
 
+input.setOptions({
+    maxLines: 1
+});
+
+
 /* Returns the last line of the editor */
 function getLastLine() {
     //Store cur line to go back to in memory
