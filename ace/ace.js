@@ -10,7 +10,7 @@ function getLastLine() {
     //Find the length of the editor in lines, go to the last line
     var length = editor.session.getLength();
 
-    editor.gotoLine(length+1);
+    //editor.gotoLine(length+1);
 
     //We are definitely now on the last line, get the contents of the line
     var curLine = editor.getSelectionRange().start.row;
@@ -30,9 +30,9 @@ function setHtml(html) {
 function setEditor(codeArr) {
     //editor.session.insertLines(codeArr);
 
-    for (var code in codeArr) {
-        alert(codeArr[code]);
-    }
+    //for (var code in codeArr) {
+    //    alert(codeArr[code]);
+    //}
 }
 
 $(document).keypress(function(e) {
@@ -43,6 +43,11 @@ $(document).keypress(function(e) {
         console.log(code);
 
     }
+});
+
+editor.getSession().on('change', function(e) {
+    // e.type, etc
+    alert(e.type());
 });
 
 function init() {
