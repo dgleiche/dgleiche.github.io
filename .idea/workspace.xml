@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7556b805-f170-4be4-8d66-469c9028dbd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace/ace.js" afterPath="$PROJECT_DIR$/ace/ace.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace/index.html" afterPath="$PROJECT_DIR$/ace/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -68,20 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ace/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="840">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.56962025" vertical-offset="0" max-vertical-offset="855">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ace.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ace.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ace/ace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="1140">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
               <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding />
             </state>
@@ -104,8 +103,8 @@
         <option value="$PROJECT_DIR$/shsapp/index.html" />
         <option value="$PROJECT_DIR$/shsapp/shscast.xml" />
         <option value="$PROJECT_DIR$/shsapp/release.html" />
-        <option value="$PROJECT_DIR$/ace/index.html" />
         <option value="$PROJECT_DIR$/ace/ace.js" />
+        <option value="$PROJECT_DIR$/ace/index.html" />
       </list>
     </option>
   </component>
@@ -532,7 +531,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421811227217</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Editor can press enter stuff">
+      <created>1421844021498</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1421844021498</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -789,18 +794,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace/index.html">
+    <entry file="file://$PROJECT_DIR$/ace/ace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="840">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace/ace.js">
+    <entry file="file://$PROJECT_DIR$/ace/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.56962025" vertical-offset="0" max-vertical-offset="855">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding />
         </state>
       </provider>
