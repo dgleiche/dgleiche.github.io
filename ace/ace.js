@@ -30,9 +30,9 @@ function setHtml(html) {
 function setEditor(codeArr) {
     //editor.session.insertLines(codeArr);
 
-    //for (var code in codeArr) {
-    //    alert(codeArr[code]);
-    //}
+    for (var code in codeArr) {
+        editor.insert(code);
+    }
 }
 
 $(document).keypress(function(e) {
@@ -43,6 +43,10 @@ $(document).keypress(function(e) {
         console.log(code);
 
     }
+});
+
+editor.getSession().selection.on('changeCursor', function(e) {
+    alert('hi');
 });
 
 function init() {
