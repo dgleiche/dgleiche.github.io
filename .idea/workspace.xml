@@ -80,8 +80,8 @@
       <file leaf-file-name="ace.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ace/ace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40816328" vertical-offset="195" max-vertical-offset="1020">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.2857143" vertical-offset="285" max-vertical-offset="1020">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -483,7 +483,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421809875304</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Editor can press enter stuff">
+      <created>1421810317738</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1421810317738</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -750,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace/ace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40816328" vertical-offset="195" max-vertical-offset="1020">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.2857143" vertical-offset="285" max-vertical-offset="1020">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
         </state>
       </provider>

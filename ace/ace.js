@@ -31,7 +31,7 @@ function setEditor(codeArr) {
     //editor.session.insertLines(codeArr);
 
     for (var code in codeArr) {
-        editor.insert(code);
+        editor.insert("h");
     }
 }
 
@@ -46,7 +46,7 @@ $(document).keypress(function(e) {
 });
 
 editor.getSession().selection.on('changeCursor', function(e) {
-    alert('hi');
+    //alert('hi');
 });
 
 function init() {
