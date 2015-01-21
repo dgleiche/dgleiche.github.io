@@ -31,7 +31,7 @@ function setEditor(codeArr) {
     //editor.session.insertLines(codeArr);
 
     for (var code in codeArr) {
-        editor.insert("h");
+        editor.insert(code + "\n");
     }
 }
 
