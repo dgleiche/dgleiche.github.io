@@ -1,6 +1,6 @@
 var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
-editor.getSession().setMode("ace/mode/rubg");
+editor.getSession().setMode("ace/mode/ruby");
 
 var input = ace.edit("input");
 input.setTheme("ace/theme/chrome");
