@@ -1,9 +1,9 @@
 var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
-editor.getSession().setMode("ace/mode/javascript");
+editor.getSession().setMode("ace/mode/rubg");
 
 var input = ace.edit("input");
-input.setTheme("ace/theme/monokai");
+input.setTheme("ace/theme/chrome");
 input.getSession().setMode("ace/mode/ruby");
 
 /* Returns the last line of the editor */
