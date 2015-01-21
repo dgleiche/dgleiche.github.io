@@ -50,7 +50,6 @@ editor.getSession().selection.on('changeCursor', function(e) {
 });
 
 function init() {
-    editor.destroy();
 
     var html = "<h1>Test</h1> <p>html</p>";
 
