@@ -5,10 +5,10 @@ editor.getSession().setMode("ace/mode/javascript");
 /* Returns the last line of the editor */
 function getLastLine() {
     //Store cur line to go back to in memory
-    var lineBeginning = editor.getSelectionRange().start.row;
+    //var lineBeginning = editor.getSelectionRange().start.row;
 
     //Find the length of the editor in lines, go to the last line
-    var length = editor.session.getLength();
+    //var length = editor.session.getLength();
 
     //editor.gotoLine(length+1);
 
