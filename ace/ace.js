@@ -2,6 +2,10 @@ var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
 editor.getSession().setMode("ace/mode/javascript");
 
+var input = ace.edit("input");
+input.setTheme("ace/theme/monokai");
+input.getSession().setMode("ace/mode/ruby");
+
 /* Returns the last line of the editor */
 function getLastLine() {
     //Store cur line to go back to in memory
