@@ -31,8 +31,7 @@ function setEditor(codeArr) {
     //editor.session.insertLines(codeArr);
 
     for (var code in codeArr) {
-        alert(code);
-        editor.insert(code + "\n");
+        editor.insert(codeArr[code] + "\n");
     }
 }
 
@@ -51,6 +50,8 @@ editor.getSession().selection.on('changeCursor', function(e) {
 });
 
 function init() {
+    editor.destroy();
+
     var html = "<h1>Test</h1> <p>html</p>";
 
     setHtml(html);
